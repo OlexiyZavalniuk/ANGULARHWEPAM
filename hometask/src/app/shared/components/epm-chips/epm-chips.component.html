@@ -1,0 +1,11 @@
+<div
+  class="interests_tags"
+  [ngClass]="{ active: isActive && isEditable }"
+  [ngStyle]="{ cursor: isEditable ? 'pointer' : 'default' }"
+  (click)="isActive = isEditable ? !isActive : isActive"
+>
+  <div><img src="..\..\..\..\assets\icons\{{ chips.toLowerCase() }}.svg" /></div>
+  <div>
+    <p [ngClass]="{ p_active: isActive && isEditable }">{{ chips }}</p>
+  </div>
+</div>

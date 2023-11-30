@@ -1,0 +1,30 @@
+.interests_tags {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid 2px gainsboro;
+  border-radius: 20px;
+}
+
+div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f1f26;
+  margin-left: 8px;
+}
+
+.active {
+  background-color: #6168e4;
+  border: solid 2px #6168e4;
+}
+
+.p_active {
+  color: #ffffff;
+}
